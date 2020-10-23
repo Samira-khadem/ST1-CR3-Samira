@@ -1,20 +1,23 @@
 package Samira;
 
 public class Main {
+    /*Create this solution with the usage of a new Java method calculateRectArea, that
+    returns a computed value.  Call this method with two different sets of
+    arguments*/
 
     static double calculateRectArea( double height, double width) {
         return height * width;
 
-        //Scanner input = new Scanner(System.in);
-        //System.out.println("Enter the Side: ");
-        //double side = input.nextDouble();
-        //double area = side * side;
-        //System.out.println(area);
 
 }
+//Demonstrate solutions from point 3 and 4 with several method calls (at least 3 for each) with different arguments.
 
     public static void main(String[] args) {
-        calculateRectArea(20, 30);
-        calculateRectArea(40,50);
+        System.out.println("The area of the rectangular is " + calculateRectArea(20, 30 )+ "square cm");
+        System.out.println("The area of the rectangular is " + calculateRectArea(40,50 )+ "square cm");
+        System.out.println("The area of the rectangular is " + calculateRectArea(15,20 )+ "square cm");
+        System.out.println("The area of the rectangular is " + calculateRectArea( 40,70 )+ "square cm");
+        System.out.println("The area of the rectangular is " + calculateRectArea( 35,45 )+ "square cm");
+
     }
 }
